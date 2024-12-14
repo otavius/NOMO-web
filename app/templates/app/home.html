@@ -1,0 +1,32 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+<div class="flex-auto">
+    <div class="positon-relative">
+        <img src="{% static 'assets/IMG_3938.jpg' %}" class="img-fluid p-2 w-100" alt="">
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+            <h1 class="text-white fw-bold display-6">Change</h1>
+            <h1 class="text-white fw-bold display-6">Start with you</h1>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary">Learn More
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+        <figure>
+            <blockquote class="blockquote">
+                <p class="mb-0 text-black fs-4">We aid in the development of youth and young adults through outreach, life coaching, and financial literacy.</p>
+            </blockquote>
+        </figure>
+
+        <p class="lh-base px-3">Our goal is simple: to change the world, and it starts with one person. A person with dreams and a vision that they believe in. Teaching our youth and young adults about managing finances, taxes, and making informed economic decisions is essential for their future success. Crucial aspects of preparing individuals for a sucessful transition into adulthood. Find out how you can help.</p>
+
+        <p class="fw-bold">I AM NOT ON MY OWN!</p>
+    </div>
+</div>
+    
+{% endblock content %}
