@@ -4,4 +4,7 @@ from django.shortcuts import render, redirect
 
 def home(request):
     return render(request, "app/home.html")
+
+def what_we_do_page(request):
+    return render(request, "app/what-we-do.html")
     
